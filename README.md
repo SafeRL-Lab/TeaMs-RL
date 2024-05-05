@@ -13,8 +13,8 @@ We will release our source code after our paper is accepted.
 
 ## Examples
  <div align=center>
- <img src="https://github.com/SafeRL-Lab/TeaMs-RL/blob/main/code/figures/teams-rl-example-1.png" width="850"/> 
-   <img src="https://github.com/SafeRL-Lab/TeaMs-RL/blob/main/code/figures/teams-rl-example-1-02.png" width="850"/> 
+ <img src="https://github.com/SafeRL-Lab/TeaMs-RL/blob/main/code/figures/teams-rl-example-1.png" width="550"/> 
+   <img src="https://github.com/SafeRL-Lab/TeaMs-RL/blob/main/code/figures/teams-rl-example-1-02.png" width="550"/> 
  </div>
  <div style="center">  <center>Figure 2: Comparison Experiments of Solving General Tasks</center></div>
 
