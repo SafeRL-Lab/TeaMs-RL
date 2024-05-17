@@ -2,7 +2,6 @@
 
 See homepage: https://sites.google.com/view/teams-rl/home
 
-We will release our source code after our paper is accepted.
 
 
  <div align=center>
