@@ -13,7 +13,7 @@ from datetime import datetime
 currentDateAndTime = datetime.now()
 start_run_date_and_time = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
 
-folder = os.getcwd()[:-12] + 'VT_gpt_data/' + 'gpt_4_1106-40k_41.3k/' + str(
+folder = os.getcwd()[:-12] + 'gpt_data/' + 'gpt_4_1106/' + str(
     start_run_date_and_time) + '/'
 
 
@@ -53,7 +53,7 @@ file_path = folder + '/instruction_response.json'
 
 folder_ID_episode = os.getcwd()[:-12] + 'gpt_data/'
 file_path_ID_episode = folder_ID_episode
-filename_ID_episode = 'quert_gpt4_1106_ID_episode_VT.json'
+filename_ID_episode = 'quert_gpt4_1106_ID_episode.json'
 # check path
 if not os.path.exists(file_path_ID_episode):
     os.makedirs(file_path_ID_episode)
