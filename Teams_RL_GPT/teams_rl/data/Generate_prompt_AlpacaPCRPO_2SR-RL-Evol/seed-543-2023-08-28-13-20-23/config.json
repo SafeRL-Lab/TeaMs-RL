@@ -1,0 +1,17 @@
+------------------ start ------------------
+gamma : 0.995
+env_name : RL-Evol
+algo : PCRPO_2SR
+cost_limit : 0.7
+slack_bound : 0.005
+exploration_iteration : 1
+exps_epoch : 52002
+tau : 0.97
+l2_reg : 0.001
+max_kl : 0.01
+damping : 0.1
+seed : 543
+batch_size : 15000
+render : False
+log_interval : 1
+------------------- end -------------------

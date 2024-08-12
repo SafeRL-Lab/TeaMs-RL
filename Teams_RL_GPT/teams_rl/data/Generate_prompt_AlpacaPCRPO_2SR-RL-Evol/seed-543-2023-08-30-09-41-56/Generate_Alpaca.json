@@ -1,0 +1,7 @@
+[
+  {
+    "instruction": "Determine the classification of the following sentence while considering an additional constraint related to the sentence structure: She can play guitar.",
+    "input": "",
+    "output": "Declarative sentence."
+  }
+]

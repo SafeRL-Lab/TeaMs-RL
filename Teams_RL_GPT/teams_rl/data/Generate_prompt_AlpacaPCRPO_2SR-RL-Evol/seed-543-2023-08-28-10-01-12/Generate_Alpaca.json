@@ -1,0 +1,42 @@
+[
+  {
+    "instruction": "Devise an algorithm that meticulously inverts a provided input string on a per-character basis, while ensuring that the output string does not contain any numerical digits.",
+    "input": "Input String: Hello World",
+    "output": "def reverseString(str): \n    reversedStr = [] \n    length = len(str) \n  \n    for i in range(length - 1, -1, -1): \n        reversedStr.append(str[i]) \n        \n    return \"\".join(reversedStr) \n\nprint(reverseString(\"Hello World\"))"
+  },
+  {
+    "instruction": "Create a method that systematically reverses an inputted text string character by character, making certain that the resulting string is devoid of any numeric values.",
+    "input": "Input String: Hello World",
+    "output": "def reverseString(str): \n    reversedStr = [] \n    length = len(str) \n  \n    for i in range(length - 1, -1, -1): \n        reversedStr.append(str[i]) \n        \n    return \"\".join(reversedStr) \n\nprint(reverseString(\"Hello World\"))"
+  },
+  {
+    "instruction": "Devise a function that meticulously inverts a given textual input on a character-by-character basis, while simultaneously ensuring the produced string remains entirely bereft of numerical figures.",
+    "input": "Input String: Hello World",
+    "output": "def reverseString(str): \n    reversedStr = [] \n    length = len(str) \n  \n    for i in range(length - 1, -1, -1): \n        reversedStr.append(str[i]) \n        \n    return \"\".join(reversedStr) \n\nprint(reverseString(\"Hello World\"))"
+  },
+  {
+    "instruction": "Create an algorithm to scrupulously reverse each individual character within a provided textual sequence, while concurrently guaranteeing the resulting string remains devoid of any numeric symbols.",
+    "input": "Input String: Hello World",
+    "output": "def reverseString(str): \n    reversedStr = [] \n    length = len(str) \n  \n    for i in range(length - 1, -1, -1): \n        reversedStr.append(str[i]) \n        \n    return \"\".join(reversedStr) \n\nprint(reverseString(\"Hello World\"))"
+  },
+  {
+    "instruction": "Design a method that meticulously inverts each distinct letter in a given text string, while simultaneously ensuring the output sequence is entirely free of numerical characters.",
+    "input": "Input String: Hello World",
+    "output": "def reverseString(str): \n    reversedStr = [] \n    length = len(str) \n  \n    for i in range(length - 1, -1, -1): \n        reversedStr.append(str[i]) \n        \n    return \"\".join(reversedStr) \n\nprint(reverseString(\"Hello World\"))"
+  },
+  {
+    "instruction": "Devise a technique that scrupulously reverses each unique alphabet in a provided textual string, concurrently ascertaining the resultant arrangement is devoid of any numeric symbols, and also preserving the original case of the characters.",
+    "input": "Input String: Hello World",
+    "output": "def reverseString(str): \n    reversedStr = [] \n    length = len(str) \n  \n    for i in range(length - 1, -1, -1): \n        reversedStr.append(str[i]) \n        \n    return \"\".join(reversedStr) \n\nprint(reverseString(\"Hello World\"))"
+  },
+  {
+    "instruction": "Recount an instance where you employed advanced analytical abilities to surmount a challenging predicament.",
+    "input": "",
+    "output": "Recently, I encountered a difficult situation that required me to draw on my problem solving skills. I was in charge of a school club event, but just two days before the event, a number of volunteers pulled out due to unforeseen circumstances. With so little time to find replacements and the event quickly approaching, I knew that I had to take action. \n\nSo, I quickly reached out to friends and fellow students, explaining the situation and appealing to their sense of service. Within hours, I had successfully secured a full complement of volunteers and saved the event. In this crisis, my problem solving skills proved invaluable as I was able to remain calm, come up with a plan, and reach out to people to get the help I needed."
+  },
+  {
+    "instruction": "Describe a situation in which you utilized complex problem-solving skills to overcome a difficult obstacle.",
+    "input": "",
+    "output": "Recently, I encountered a difficult situation that required me to draw on my problem solving skills. I was in charge of a school club event, but just two days before the event, a number of volunteers pulled out due to unforeseen circumstances. With so little time to find replacements and the event quickly approaching, I knew that I had to take action. \n\nSo, I quickly reached out to friends and fellow students, explaining the situation and appealing to their sense of service. Within hours, I had successfully secured a full complement of volunteers and saved the event. In this crisis, my problem solving skills proved invaluable as I was able to remain calm, come up with a plan, and reach out to people to get the help I needed."
+  }
+]

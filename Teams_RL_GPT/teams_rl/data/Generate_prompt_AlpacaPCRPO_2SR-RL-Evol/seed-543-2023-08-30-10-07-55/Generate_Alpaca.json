@@ -1,0 +1,12 @@
+[
+  {
+    "instruction": "Determine the category of the following statement, while also indicating if it expresses an ability or a desire: She can play guitar.",
+    "input": "",
+    "output": "Declarative sentence."
+  },
+  {
+    "instruction": "Classify the following sentence by identifying whether it conveys a skill or a wish: He is able to solve complex math problems.",
+    "input": "",
+    "output": "Declarative sentence."
+  }
+]

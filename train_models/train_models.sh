@@ -1,0 +1,22 @@
+cd src
+deepspeed --include localhost:4,5,6,7 train.py \
+    --model_name_or_path /home/converted_models/llama-1-7b \
+    --data_path /home/your_data.json \
+    --output_dir /home/your_model_output_path \
+    --num_train_epochs 3 \
+    --model_max_length 512 \
+    --per_device_train_batch_size 64 \
+    --per_device_eval_batch_size 1 \
+    --gradient_accumulation_steps 1 \
+    --evaluation_strategy "no" \
+    --save_strategy "steps" \
+    --save_steps 100 \
+    --save_total_limit 2 \
+    --learning_rate 2e-5 \
+    --warmup_steps 2 \
+    --logging_steps 2 \
+    --lr_scheduler_type "cosine" \
+    --report_to "tensorboard" \
+    --gradient_checkpointing True \
+    --deepspeed configs/deepspeed_config_transformers4.31.json \
+    --fp16 True

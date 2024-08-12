@@ -1,0 +1,22 @@
+[
+  {
+    "instruction": "Determine the classification of this particular sentence construction: She possesses the ability to perform on the guitar.",
+    "input": "",
+    "output": "Declarative sentence."
+  },
+  {
+    "instruction": "Identify the grammatical category of the following sentence structure: He has the skill to play the piano beautifully.",
+    "input": "",
+    "output": "Declarative sentence."
+  },
+  {
+    "instruction": "Please determine the grammatical classification for this particular sentence construction: \"He possesses the aptitude to perform exquisitely on the piano.\"",
+    "input": "",
+    "output": "Declarative sentence."
+  },
+  {
+    "instruction": "Kindly elucidate the syntactic categorization pertinent to this specific linguistic arrangement: \"The individual in question demonstrates a marked propensity for executing remarkably refined renditions on the pianoforte.\"",
+    "input": "",
+    "output": "Declarative sentence."
+  }
+]
