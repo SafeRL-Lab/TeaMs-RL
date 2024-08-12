@@ -29,3 +29,6 @@ If you find the repository useful, please cite the [paper](https://arxiv.org/pdf
   year={2024}
 }
 ```
+## Acknowledgments
+
+We thank the contributors from [llama-x](https://github.com/AetherCortex/Llama-X).
