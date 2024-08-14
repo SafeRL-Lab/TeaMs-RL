@@ -15,7 +15,7 @@ import json
 import pandas as pd
 
 from teams_rl.models.models import *
-from teams_rl.algorithms.trpo import trpo_step, pcgrad
+from teams_rl.algorithms.trpo import trpo_step
 from teams_rl.utils.replay_memory import *
 from teams_rl.utils.replay_memory import Memory
 from teams_rl.utils.running_state import ZFilter
