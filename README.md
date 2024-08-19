@@ -2,7 +2,18 @@
 
 See homepage: https://sites.google.com/view/teams-rl/home
 
+install:
 
+
+`pip install -r requirements.txt`
+
+`pip install -e .`
+
+run experiments
+
+cd Teams_RL_GPT/teams_rl/runner/
+
+`sh run_llm_rl.sh`
 
 <!-- <div align=center>
  <img src="https://github.com/SafeRL-Lab/TeaMs-RL/blob/main/code/figures/media.png" width="850"/> 
