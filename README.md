@@ -1,8 +1,37 @@
-# TeaMs-RL
 
-See homepage: https://sites.google.com/view/teams-rl/home
+<div align="center">
+ 
+  
+<h1 align="center" style="font-size: 30px;"><strong><em>TeaMs-RL</em></strong>: Teaching LLMs to Generate Better Instruction Datasets via Reinforcement Learning</h1>
+<p align="center">
+    <a href="https://arxiv.org/pdf/2403.08694">Paper</a>
+    ·
+    <a href="https://sites.google.com/view/teams-rl/home">Website</a>
+    ·
+    <a href="https://github.com/SafeRL-Lab/TeaMs-RL">Code</a>
+    ·
+    <a href="https://github.com/SafeRL-Lab/TeaMs-RL/issues">Issue</a>
+  </p>
+   <a href="https://github.com/SafeRL-Lab/TeaMs-RL/tree/main">
+    <img src="https://github.com/SafeRL-Lab/TeaMs-RL/blob/main/Teams_RL_GPT/docs/overview-framework.png" alt="Logo" width="880">
+  </a>
+    
+  <p align="left" style="font-size: 25px;"><strong>Comparative overview of LLM alignment techniques.</strong> Current methods (red shaded region) typically involve a two-phase process, starting with Supervised Fine-Tuning (SFT) of a pre-aligned LLM using a dataset of human-crafted instructions and corresponding responses (often sourced from an expert LLM like ChatGPT), leading to a post-SFT LLM. This is then fine-tuned using RLHF, where human feedback on preferences is incorporated, resulting in a post-RLHF LLM. In contrast, our TeaMs-RL method (green shaded region) employs a single-phase SFT approach, initially utilizing RL for teaching expert LLMs to generate high-quality instructions. We train an RL policy (instructor LLM) to create diverse instructions (with the diversity evaluated by a reviewer LLM as a reward signal). Once trained, the instructor LLM produces a set of actions to teach an expert LLM to generate high-quality instructions, and the instructions are leveraged to query the expert LLM to form the SFT instruction dataset. This approach capitalizes on the strengths of RL to enhance the complexity of instructions and consequently the value of responses from the expert LLM. Note: The expert LLMs are not involved in the training of the RL policy; we only use the instructor and the reviewer LLM for training the RL policy. The expert LLM is used to generate instructions and corresponding responses under the guidance of the trained RL policy.</p>
+  <a href="https://github.com/SafeRL-Lab/TeaMs-RL/tree/main">
+    <img src="https://github.com/SafeRL-Lab/TeaMs-RL/blob/main/Teams_RL_GPT/docs/RL-search.png" alt="Logo" width="580">
+  </a>  
+  <p align="left" style="font-size: 25px;"><strong>RL policy search for LLM instruction generation.</strong> A denotes actions (prompts), S denotes states (instructions), and The green line indicates the optimal instruction generation achieved during the policy search.</p>
+</div>
 
-install:
+
+
+
+
+# Run experiments
+
+
+
+Install:
 
 
 `pip install -r requirements.txt`
