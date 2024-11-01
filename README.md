@@ -120,7 +120,7 @@ Given Prompt:
 
 ---
 
-### **Stage 4: Expert LLM Generates Rewritten Instruction**
+### **Stage 4: Expert LLM Generates Instruction**
 
 **Expert LLM Output:**
 
