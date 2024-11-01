@@ -47,7 +47,7 @@ cd Teams_RL_GPT/teams_rl/runner/
 
 # An example
 
-To clarify our methodology and facilitate replication, we provide a detailed example illustrating the inputs and outputs at each stage of our process, similar to Figure 1 in our paper.
+To clarify our methodology and facilitate replication, we provide a detailed example illustrating the inputs and outputs at each stage of our process, similar to Figure 1 in our [paper](https://arxiv.org/pdf/2403.08694).
 
 ---
 
