@@ -1,0 +1,2 @@
+deepspeed==0.10.0 # new: 0.14.4
+openai==1.54.3 # new: 0.28.0
