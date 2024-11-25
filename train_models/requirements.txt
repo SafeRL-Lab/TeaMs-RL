@@ -8,3 +8,4 @@ wandb
 deepspeed==0.10.0
 accelerate
 tensorboardX
+deepspeed==0.14.4
