@@ -44,6 +44,8 @@ cd Teams_RL_GPT/teams_rl/runner/
 
 `sh run_llm_rl.sh`
 
+If you met some issues, please check the [existing solutions for the reported issues](https://github.com/SafeRL-Lab/TeaMs-RL/issues), which could help you address your issue.
+
 
 # An example
 
