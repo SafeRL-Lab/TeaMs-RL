@@ -38,7 +38,7 @@ Install:
 
 `pip install -e .`
 
-run experiments
+run experiments / train models
 
 cd Teams_RL_GPT/teams_rl/runner/
 
