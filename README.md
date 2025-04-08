@@ -46,6 +46,7 @@ cd Teams_RL_GPT/teams_rl/runner/
 
 If you met some issues, please check the [existing solutions for the reported issues](https://github.com/SafeRL-Lab/TeaMs-RL/issues), which could help you address your issue.
 
+We also provide the datasets that we used to train the models.
 
 # An example
 
