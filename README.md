@@ -48,6 +48,8 @@ If you met some issues, please check the [existing solutions for the reported is
 
 We also provide the datasets that we used to train the models.
 
+After collected datasets, use [train_models.sh](https://github.com/SafeRL-Lab/TeaMs-RL/blob/main/train_models/train_models.sh) to train your models.
+
 # An example
 
 To clarify our methodology and facilitate replication, we provide a detailed example illustrating the inputs and outputs at each stage of our process, similar to Figure 1 in our [paper](https://arxiv.org/pdf/2403.08694).
